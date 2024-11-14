@@ -17,6 +17,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
+      // providers.
+      // first provider =>
       providers: [
         ChangeNotifierProvider(create: (context) => SignUp_Provider(),),
         ChangeNotifierProvider(create: (context) => LogIn_Provider(),),
